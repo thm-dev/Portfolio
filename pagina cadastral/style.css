@@ -20,8 +20,8 @@ body{
     padding: 20px;
 }
 .button{
-    background-color: #797270;
-    border: 1px #797270;
+    background-color: #7c7c7c;
+    border: 1px #7c7c7c;
     border-radius: 20px;
 }
 .button:hover{
