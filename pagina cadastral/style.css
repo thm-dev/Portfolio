@@ -3,6 +3,7 @@ body{
     padding-top: 20px;
     display: grid;
     justify-content: center;
+    align-items: center;
     font-family: 'Times New Roman', Times, serif;
 }
 .container{
@@ -11,10 +12,26 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-rows: 5px;
+    grid-template-rows: 2px;
     min-width: 1199px;
     max-width: 1200px;
     max-height: 600px;
     margin: 0 auto;
     padding: 20px;
+}
+.button{
+    background-color: #797270;
+    border: 1px #797270;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.input{
+    border-radius: 5px;
+    border: 2px #000000;
+}
+p{
+    font-size: 16px;
 }
