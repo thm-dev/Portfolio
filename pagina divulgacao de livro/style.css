@@ -1,0 +1,38 @@
+div{
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+    border: 1px solid #d5d5d5;
+}
+img{
+    width: 190px;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    text-align: center;
+    line-height: 28px;
+    width: 930px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+a{
+    background-color: #48b86f;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+}
