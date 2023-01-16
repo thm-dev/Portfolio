@@ -8,64 +8,84 @@
     <title>Restaurante</title>
 </head>
 <body>
+    <div class="wrapper">
     <div class="navbar">
         <nav class="nav">
-            <img src="image/logo.png" alt="logo">
-            <p>Home</p>
-            <p>Cardapio</p>
-            <p>Unidades</p>
-            <p>Contato</p>
-            <p>Sobre nós</p>
+            <img class="img-logo" src="image/logo.png" alt="logo">
+            <ul style="list-style-type:none;">
+                <li>Home</li>
+                <li>Cardapio</li>
+                <li>Unidades</li>
+                <li>Contato</li>
+                <li>Sobre nós</li>
+            </ul>
             <a href="#">ligue 9999-9999</a>
         </nav>
     </div>
-    <div>
-        <img src="image/fundo1.jpg" alt="fundo">
-        <img src="image/prato.jpg" alt="prato">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti iure autem assumenda laboriosam ducimus labore eligendi nesciunt sed totam fugit necessitatibus molestiae cum, sit optio minus! Fuga recusandae officiis quibusdam?</p>
+    <div class="img-fundo">
+        <img class="fundo1" src="image/fundo1.jpg" alt="fundo">
+        <img class="prato1" src="image/prato.jpg" alt="prato">
     </div>
-    <div>
-        <p>Pratos</p>
-        <div>
+    <div class="titulo-pratos">
+        <p >Pratos</p>
+    </div>
+    <div class="pratos">
+        <div class="prato-ind">
             <img src="image/prato.jpg" alt="prato1">
             <p>Sobre o prato</p>
             <a href=""></a>
         </div>
-        <div>
+        <div class="prato-ind">
             <img src="image/prato.jpg" alt="prato2">
             <p>Sobre o prato</p>
             <a href=""></a>
         </div>
-        <div>
+        <div class="prato-ind">
             <img src="image/prato.jpg" alt="prato3">
             <p>Sobre o prato</p>
             <a href=""></a>
         </div>
-        <div>
+        <div class="prato-ind">
             <img src="image/prato.jpg" alt="prato4">
             <p>Sobre o prato</p>
             <a href=""></a>
         </div>
+    </div>
+    <div class="date">
         <input type="date" name="teste" id="data">
     </div>
-    <div>
-        <div>
-            <p></p>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <button></button>
+    <div class="classe-preco">
+        <div class="classe-button">
+            <p>Teste</p>
+        <div class="classe-prato">
+            <div class="classe-center">
+                <img class="classe-icone" src="image/icones.png" alt="">
+                <p>Prato 1</p>
+            </div>
+            <div class="classe-center">
+                <img class="classe-icone" src="image/icones.png" alt="">
+                <p>Prato 2</p>
+            </div>
+            <div class="classe-center">
+                <img class="classe-icone" src="image/icones.png" alt="">
+                <p>Prato 3</p>
+            </div>
+            <div class="classe-center">
+                <img class="classe-icone" src="image/icones.png" alt="">
+                <p>Prato 4</p>
+            </div>
         </div>
-        <img src="image/prato.jpg" alt="prato">
-        <div></div>
+        <button>Teste</button>
+        </div>
+        <img class="classe-preco-img" src="image/prato.jpg" alt="prato">
+        <div class="bg-black"></div>
     </div>
     <div>
         <div>
-            <img src="image/fachada.jpg" alt="fachada">
+            <img class="fachada" src="image/fachada.jpg" alt="fachada">
         </div>
         <div>
-            <img src="image/fachada.jpg" alt="fachada">
+            <img class="fachada" src="image/fachada.jpg" alt="fachada">
         </div>
     </div>
     <div>
@@ -114,7 +134,9 @@
             </a>
         </div>
     </div>
-    <div><img src="image/fundo1.jpg" alt="fundo"></div>
+    <div>
+        <img class="fundo1" src="image/fundo1.jpg" alt="fundo">
+    </div>
     <div>
         <form action="">
             <input type="text">
@@ -139,5 +161,6 @@
             <p></p>
         </footer>
     </div>
+</div>
 </body>
 </html>
