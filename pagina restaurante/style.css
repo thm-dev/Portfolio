@@ -1,8 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: 95%;
     height: 95%;
     background-color: #E2E2E2;
+
 }
+/* ----------------------HOME--------------------- */
 .wrapper{
     margin: 10px 30px;
 }
@@ -271,6 +276,10 @@ body{
     color: #fff;
     margin: 225px 450px;
 }
+.border{
+    border: 2px solid #000;
+    border-radius: 10px;
+}
 .reservar{
     display: flex;
     justify-content: center;
@@ -307,3 +316,6 @@ body{
     display: grid;
     justify-content: center;
 }
+/* .fundo-fixo{
+    background-position: fixed;
+} */
