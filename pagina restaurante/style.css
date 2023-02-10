@@ -1,159 +1,198 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     width: 95%;
     height: 95%;
     background-color: #E2E2E2;
 
 }
+
 /* ----------------------HOME--------------------- */
-.wrapper{
+.wrapper {
     margin: 10px 30px;
 }
-.navbar, .fachada{
+
+.navbar,
+.fachada {
     margin: 0;
     max-width: 100%;
     font-size: 30px;
 }
-.nav, .pratos{
+
+.nav,
+.pratos {
     display: flex;
     justify-content: space-between;
     font-size: 30px;
 }
-.nav{
+
+.nav {
     margin-bottom: 10px;
 }
-.link-logo{
+
+.link-logo {
     max-height: 75px;
 }
-.img-logo{
+
+.img-logo {
     width: 75px;
     margin-bottom: 50px;
     background-color: #E2E2E2;
 }
-.nav ul{
+
+.nav ul {
     display: flex;
     letter-spacing: 2px;
 }
-.nav li{
+
+.nav li {
     margin-left: 20px;
     margin-right: 10px;
     max-height: 40px;
 }
-.nav li:hover{
+
+.nav li:hover {
     background-color: #9e9e9e;
 }
-.tel-hover{
+
+.tel-hover {
     max-height: 40px;
 }
-.tel-hover:hover{
+
+.tel-hover:hover {
     background-color: #9e9e9e;
 }
-.navbar a{
+
+.navbar a {
     margin-top: 32px;
     text-decoration: none;
     color: #000;
 }
-.img-fundo{
+
+.img-fundo {
     position: relative;
     height: 100%;
 }
-.fundo1{
+
+.fundo1 {
     width: 100%;
     max-height: 475px;
     object-fit: cover;
 }
-.h1{
+
+.h1 {
     position: absolute;
     margin-top: 200px;
     margin-left: 200px;
 }
-.prato1{
+
+.prato1 {
     position: absolute;
     right: 30%;
     bottom: -3%;
     border-radius: 50%;
     height: 300px;
 }
-.pratos img{
+
+.pratos img {
     border-radius: 50%;
 }
-.titulo-pratos{
+
+.titulo-pratos {
     display: grid;
     justify-content: center;
     font-size: 30px;
 }
-.prato-ind{
+
+.prato-ind {
     display: grid;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
 }
-.deco{
+
+.deco {
     text-decoration: none;
     color: #000;
 }
-.deco:hover{
+
+.deco:hover {
     background-color: #9e9e9e;
 }
-.date{
+
+.date {
     display: grid;
     justify-content: center;
     height: 35px;
 }
-.bg-black{
+
+.bg-black {
     background-color: #605C59;
     height: 300px;
     width: calc(0.3 * 100%);
     /* width: 324px; */
 }
-.classe-preco, .classe-prato{
+
+.classe-preco,
+.classe-prato {
     display: flex;
     align-items: center;
     position: relative;
 }
-.classe-preco-img{
+
+.classe-preco-img {
     position: absolute;
     right: 20%;
     border-radius: 50%;
 }
-.classe-icone{
+
+.classe-icone {
     width: 50px;
     margin: 0 10px;
 }
-.classe-preco{
+
+.classe-preco {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.classe-button{
+
+.classe-button {
     display: grid;
     justify-items: flex-start;
 }
-.classe-button p{
+
+.classe-button p {
     margin: 30px 0;
 }
-.classe-button img{
+
+.classe-button img {
     margin: 30px 50px;
 }
-.classe-center{
+
+.classe-center {
     display: grid;
     align-items: center;
 }
-.classe-button button{
+
+.classe-button button {
     margin: 30px 0;
 }
-.fachada{
+
+.fachada {
     max-height: 400px;
     margin: 10px;
 }
-.fachadas{
+
+.fachadas {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.fachada-fundo{
+
+.fachada-fundo {
     background-image: url(https://shinraisushi.com.br/img/restaurante/shinrai-restaurante_07.jpg);
     background-size: 475px;
     background-repeat: no-repeat;
@@ -161,14 +200,16 @@ body{
     width: 450px;
     height: 300px;
 }
-.fachada-fundo2{
+
+.fachada-fundo2 {
     background-image: url(https://i.pinimg.com/originals/10/46/4f/10464f355d269408a17ef11a152896b9.jpg);
     background-size: 420px;
     background-repeat: no-repeat;
     width: 450px;
     height: 300px;
 }
-.fachada-hover{
+
+.fachada-hover {
     display: grid;
     justify-content: center;
     background-color: rgba(168, 163, 147, 0.8);
@@ -177,17 +218,20 @@ body{
     font-size: 14px;
     color: #fff;
 }
-.mini-logo{
+
+.mini-logo {
     width: 25px;
     height: 25px;
     margin: 5px;
 }
-.titulo-fachada{
+
+.titulo-fachada {
     display: flex;
     justify-content: left;
     align-items: center;
 }
-.fachada-hover2{
+
+.fachada-hover2 {
     position: relative;
     background-color: rgb(0, 0, 0, 0.5);
     width: 420px;
@@ -195,7 +239,8 @@ body{
     display: flex;
 
 }
-.faixa{
+
+.faixa {
     position: absolute;
     width: 380px;
     height: 260px;
@@ -203,93 +248,113 @@ body{
     border-radius: 10px;
     margin: 20px;
 }
-.faixa-absolute{
+
+.faixa-absolute {
     display: grid;
     place-items: center;
     position: absolute;
     color: #fff;
     margin: 80px;
 }
-.padding{
+
+.padding {
     margin: 5px;
 }
-.icone-local{
+
+.icone-local {
     width: 25px;
     height: 50px;
 }
-.div-local{
+
+.div-local {
     display: flex;
     justify-content: center;
 }
-.localizacao{
+
+.localizacao {
     display: grid;
     margin: 25px;
     width: 60%;
 }
-.link-local{
+
+.link-local {
     display: flex;
     justify-content: center;
     margin: 25px;
     text-decoration: none;
 }
-.button-local{
+
+.button-local {
     display: flex;
     justify-content: space-between;
     margin: 25px;
     text-decoration: none;
 }
-.texto-local{
+
+.texto-local {
     text-decoration: none;
     color: #000;
     margin: 25px;
 }
-.button{
+
+.button {
     width: 150px;
     height: 50px;
     background-color: #E2E2E2;
     border: 2px solid #605C59;
 }
-.button:hover{
+
+.button:hover {
     background-color: #9e9e9e;
     cursor: pointer;
 }
-.unidades{
+
+.unidades {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 50px ;
+    margin: 0 50px;
 }
-.texto-local:hover{
+
+.texto-local:hover {
     background-color: #9e9e9e;
 }
-.back-black{
+
+.back-black {
     position: absolute;
     width: 100%;
     height: 475px;
     background-color: rgb(0, 0, 0, 0.6);
     top: 0;
 }
-.fundo-final{
+
+.fundo-final {
     position: relative;
 }
-.back-black p{
+
+.back-black p {
     font-size: 32px;
     color: #fff;
     margin: 225px 450px;
 }
-.border{
+
+.border {
     border: 2px solid #000;
     border-radius: 10px;
+    padding: 10px;
 }
-.reservar{
+
+.reservar {
     display: flex;
     justify-content: center;
     font-size: 40px;
 }
-.form{
+
+.form {
     display: grid;
     justify-content: space-between;
 }
-.text{
+
+.text {
     width: 300px;
     height: 40px;
     border: none;
@@ -297,25 +362,91 @@ body{
     background-color: #E2E2E2;
     font-size: 24px;
 }
-.reserva-tudo{
+
+.reserva-tudo {
     display: flex;
     justify-content: space-around;
 }
-.reserva-mesa{
+
+.reserva-mesa {
     display: grid;
     justify-content: space-around;
 }
-.descricao{
+
+.descricao {
     width: 400px;
     height: 200px;
     border: none;
     background-color: #E2E2E2;
     font-size: 24px;
 }
-.qntd-pessoas{
+
+.qntd-pessoas {
     display: grid;
     justify-content: center;
 }
+
 /* .fundo-fixo{
     background-position: fixed;
 } */
+.fundo-footer {
+    background-color: #605D58;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.ultima-logo,
+.paragraf-final {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-final {
+    width: 50px;
+}
+
+.button {
+    background-color: #6F6B68;
+    color: #7F7B78;
+}
+
+.paragraf-final {
+    color: #7F7B78;
+}
+
+.button:hover {
+    background-color: #4B4744;
+}
+
+.paragraf-final2 {
+    font-size: 12px;
+}
+
+.link-top {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-top {
+    display: grid;
+    justify-content: center;
+    background-color: #787677;
+    position: relative;
+    width: 100px;
+    height: 55px;
+    /* top: -25px;
+    right: 100px; */
+}
+
+.button-top:before {
+    position: absolute;
+    top: -25px;
+    right: 100px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #787677;
+}
