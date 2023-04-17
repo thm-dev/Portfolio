@@ -6,28 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Thomas Jefferson</title>
 </head>
 
 <body>
     <div>
         <nav>
-            <div>
-                <ul type="none">
-                    <li><a>Inicio</a></li>
-                    <li><a>Projetos</a></li>
-                    <li><a>Sobre mim</a></li>
-                    <li><a>Conhecimentos</a></li>
-                    <li><a>Contato</a></li>
+            <div class="navbar">
+                <ul class="lista-navbar" type="none">
+                    <li class="itemnav"><img src="images/img-navbar.png" alt="TJ"></li>
+                    <li class="itemnav"><a href="#inicio">Inicio</a></li>
+                    <li class="itemnav"><a href="#sobre">Sobre mim</a></li>
+                    <li class="itemnav"><a href="#projetos">Projetos</a></li>
+                    <li class="itemnav"><a href="#conhecimentos">Conhecimentos</a></li>
+                    <li class="itemnav"><a href="#contatos">Contato</a></li>
                 </ul>
             </div>
         </nav>
-        <div>
-            <h1>Thomas Jefferson Avelino</h1>
-            <p>Texto sobre mim</p>
-            <img src="" alt="Alguma imagem">
+        <div class="inicio" id="Inicio">
+            <div class="inicio-img">
+                <img class="img-ini" src="images/img-navbar.png" alt="Logo Portfólio">
+            </div>
+            <div class="inicio-h1">
+                <h1>Thomas Jefferson Avelino</h1>
+            </div>
         </div>
-        <div>
+        <div id="sobre">
+            <h2>Sobre mim</h2>
+            <p>Sou Thomas, estudo sistemas de informação e busco me profissionalizar em desenvolvimento de sites e
+                aplicativos, fiz um treinamento de 2 meses onde tive como foco HTML e CSS e atualmente estou estudando
+                Javascript e React.</p>
+        </div>
+        <div id="preojetos">
             <div>
                 <a href="">
                     <img src="" alt="projeto1">
@@ -56,14 +67,15 @@
                 </a>
             </div>
         </div>
-        <div>
-            <h2>Sobre mim</h2>
-        </div>
-        <div>
+        <div id="conhecimentos">
             <h2>Conhecimentos</h2>
         </div>
-        <footer>
+        <footer id="contatos">
             <h2>Contato</h2>
+            <p>Email: thomas_jsa@hotmail.com</p>
+            <p>Linkedin: https://www.linkedin.com/in/thomas-jefferson-546878167/</p>
+            <p>Github: https://github.com/thm-dev</p>
+            <p>Whatsapp: (11)970625449</p>
         </footer>
     </div>
 </body>
