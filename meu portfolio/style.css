@@ -127,9 +127,32 @@ body{
     height: 500px;
     background-color: #cadeeda8;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.conhecimetos-item{
+    background-color: rgba(255, 255, 255, 0.541);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 250px;
+    height: 100px;
+    margin: 30px;
+    border-radius: 20px;
+}
+.conhecimetos-item img{
+    width: 50px;
+}
+.conhecimetos-item:hover{
+    cursor: pointer;
+    scale: 1.4;
+    transition: 0.5s;
 }
 /*--------------contato-----------------*/
 .contato{
