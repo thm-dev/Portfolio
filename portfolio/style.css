@@ -69,7 +69,7 @@ body {
 }
 
 .navbar li {
-    margin: 20px 30px;
+    margin: 10px 15px;
 }
 
 .navbar img {
@@ -153,7 +153,7 @@ body {
 /*-------------------conhecimentos-----------------*/
 .conhecimentos {
     width: 100%;
-    height: 500px;
+    height: 300px;
     background-color: #cadeeda8;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
     display: grid;
@@ -177,6 +177,7 @@ body {
     margin: 30px;
     border-radius: 20px;
     object-fit: 1;
+    padding-top: 5px;
 }
 
 .conhecimetos-item img {
@@ -209,3 +210,31 @@ body {
     background-color: #194569;
     color: #fff;
 }
+/* ------------------botao wpp---------------------- */
+.msg-wpp{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.msg-wpp img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.msg-wpp:hover{
+    scale: 1.5;
+    transition: 0.5s;
+}
+/* ----------------responsive-------------- */
+@media only screen and (max-width: 600px) {
+    .itemnav {
+        display: none;
+    }
+    .imgnav{
+        margin-left: 15px;
+    }
+  }
+/* 600, 800, 1024 */
