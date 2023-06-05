@@ -46,6 +46,9 @@ body {
     background-color: #194569;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
 }
+.navbar span{
+    display: none;
+}
 
 .lista-navbar {
     display: flex;
@@ -232,6 +235,9 @@ body {
 /* ----------------responsive-------------- */
 @media only screen and (max-width: 600px) {
     /* -------------------navbar-------------------- */
+    .navbar span{
+        display: block;
+    }
     .lista-navbar{
         padding-left: 300px;
     }
