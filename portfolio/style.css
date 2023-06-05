@@ -73,7 +73,8 @@ body {
 }
 
 .navbar img {
-    width: 90px;
+    padding: 10px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -230,11 +231,77 @@ body {
 }
 /* ----------------responsive-------------- */
 @media only screen and (max-width: 600px) {
+    /* -------------------navbar-------------------- */
+    .lista-navbar{
+        padding-left: 300px;
+    }
     .itemnav {
         display: none;
     }
     .imgnav{
         margin-left: 15px;
+    }
+    .icon-menu{
+        right: 50px;
+        border-radius: 10px;
+    }
+    #burguer{
+        padding: 10px;
+        cursor: pointer;
+    }
+    #burguer:hover{
+        background-color: #5f84a2;
+        color: #fff;
+    }
+    .itemnav{
+        height: 30px;
+        margin: 10px;
+    }
+    /* -----------------inicio--------------------- */
+    .inicio{
+        margin-top: 100px;
+        height: 250px;
+    }
+    .inicio-img{
+        height: 250px;
+    }
+    .img-ini{
+        width: 100px;
+        margin-top: 95px;
+        margin-left: 50px;
+    }
+    .inicio-h1 {
+        font-size: 16px;
+        margin-right: 12px;
+        text-shadow: 2px 2px #fff;
+    }
+    /*----------------Sobre mim-------------------*/
+    .sobre h2{
+        font-size: 20px;
+    }
+    .sobre p{
+        font-size: 16px;
+    }
+    /*-------------------conhecimentos-----------------*/
+    .conhecimentos{
+        height: 500px;
+    }
+    .cards{
+        display: grid;
+    }
+    .conhecimetos-item{
+        display: flex;
+        width: 150px;
+        height: 50px;
+    }
+    .conhecimetos-item img {
+        width: 30px;
+        border-radius: 5px;
+    }
+    /*--------------contato-----------------*/
+    .contato{
+        height: 300px;
+        display: grid;
     }
   }
 /* 600, 800, 1024 */
