@@ -97,8 +97,8 @@ body {
     width: 50%;
     height: 500px;
     background-color: #ffffff85;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-right-radius: 350px;
+    border-bottom-right-radius: 350px;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
 }
 
@@ -169,9 +169,10 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
 }
 
-.conhecimetos-item {
+.conhecimentos-item {
     background-color: rgba(255, 255, 255, 0.541);
     display: grid;
     align-items: center;
@@ -184,11 +185,11 @@ body {
     padding-top: 5px;
 }
 
-.conhecimetos-item img {
+.conhecimentos-item img {
     width: 50px;
 }
 
-.conhecimetos-item:hover {
+.conhecimentos-item:hover {
     cursor: pointer;
     scale: 1.4;
     transition: 0.5s;
@@ -233,17 +234,55 @@ body {
     transition: 0.5s;
 }
 /* ----------------responsive-------------- */
+@media only screen and (max-width: 900px){
+    /* -------------------navbar-------------------- */
+    .itemnav a {
+        font-size: 20px;
+    }
+    /* -----------------inicio--------------------- */
+    .inicio-h1 {
+        font-size: 22px;
+        margin-right: 12px;
+        text-shadow: 2px 2px #fff;
+    }
+    /*----------------Sobre mim-------------------*/
+    .sobre p{
+        font-size: 18px;
+    }
+    /*-------------------conhecimentos-----------------*/
+    .conhecimentos{
+        max-width: 900px;
+    }
+    .cards{
+        display: flex;
+    }
+    .conhecimentos-item{
+        display: flex;
+        width: 150px;
+        height: 50px;
+        font-size: 12px;
+    }
+    .conhecimentos-item img {
+        width: 25px;
+        border-radius: 5px;
+    }
+    /*--------------contato-----------------*/
+    .contato{
+        height: 220px;
+        display: grid;
+    }
+}
 @media only screen and (max-width: 600px) {
     /* -------------------navbar-------------------- */
     .navbar span{
         display: block;
     }
-    .lista-navbar{
+    /* .lista-navbar{
         padding-left: 300px;
-    }
-    .itemnav {
+    } */
+    /* .itemnav {
         display: none;
-    }
+    } */
     .imgnav{
         margin-left: 15px;
     }
@@ -262,6 +301,9 @@ body {
     .itemnav{
         height: 30px;
         margin: 10px;
+    }
+    .itemnav a{
+        font-size: 16px;
     }
     /* -----------------inicio--------------------- */
     .inicio{
@@ -295,12 +337,12 @@ body {
     .cards{
         display: grid;
     }
-    .conhecimetos-item{
+    .conhecimentos-item{
         display: flex;
         width: 150px;
         height: 50px;
     }
-    .conhecimetos-item img {
+    .conhecimentos-item img {
         width: 30px;
         border-radius: 5px;
     }
