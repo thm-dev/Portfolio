@@ -60,14 +60,15 @@ body {
 .itemnav,
 .itemnav a {
     font-size: 24px;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     line-height: 30px;
+    font-weight: bold;
 }
 
 .itemnav:hover a {
     background-color: #5f84a2;
-    color: #fff;
+    color: #000;
     border-radius: 10px;
 }
 
@@ -103,9 +104,9 @@ body {
 }
 
 .img-ini {
-    margin-top: 175px;
+    margin-top: 150px;
     margin-left: 100px;
-    width: 200px;
+    width: 275px;
     border-radius: 50%;
 }
 
@@ -113,12 +114,14 @@ body {
     font-size: 30px;
     margin-right: 25px;
     text-shadow: 5px 5px #fff;
+    padding-left: 150px;
+    margin-top: -100px;
 }
 
 /*----------------Sobre mim-------------------*/
 .sobre {
     height: 200px;
-    background-color: #5f84a2ad;
+    background-color: #194569ad;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
     display: flex;
     align-items: center;
@@ -128,6 +131,7 @@ body {
 .sobre h2,
 .sobre p {
     max-width: 50%;
+    color: #fff;
 }
 
 .sobre h2 {
@@ -157,12 +161,16 @@ body {
 /*-------------------conhecimentos-----------------*/
 .conhecimentos {
     width: 100%;
-    height: 300px;
+    height: 450px;
     background-color: #cadeeda8;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
     display: grid;
     align-items: center;
     justify-content: center;
+}
+
+.tam-conhecimentos{
+    font-size: 24px;
 }
 
 .cards {
@@ -177,12 +185,14 @@ body {
     display: grid;
     align-items: center;
     justify-items: center;
-    width: 250px;
-    height: 100px;
+    width: 275px;
+    height: 200px;
     margin: 30px;
     border-radius: 20px;
     object-fit: 1;
     padding-top: 5px;
+    text-align: center;
+    font-size: 16px;
 }
 
 .conhecimentos-item img {
@@ -199,21 +209,23 @@ body {
 .contato {
     width: 100%;
     height: 500px;
-    background-color: #d8ecf4ad;
+    background-color: #194569ad;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: #fff;
+    font-size: 24px;
 }
 
 .contato a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .contato a:hover {
     background-color: #194569;
-    color: #fff;
+    color: #000;
 }
 /* ------------------botao wpp---------------------- */
 .msg-wpp{
@@ -237,7 +249,7 @@ body {
 @media only screen and (max-width: 900px){
     /* -------------------navbar-------------------- */
     .itemnav a {
-        font-size: 20px;
+        font-size: 18px;
     }
     /* -----------------inicio--------------------- */
     .inicio-h1 {
@@ -259,7 +271,7 @@ body {
     .conhecimentos-item{
         display: flex;
         width: 150px;
-        height: 50px;
+        height: 150px;
         font-size: 12px;
     }
     .conhecimentos-item img {
@@ -268,7 +280,7 @@ body {
     }
     /*--------------contato-----------------*/
     .contato{
-        height: 220px;
+        height: 400px;
         display: grid;
     }
 }
@@ -284,7 +296,7 @@ body {
         display: none;
     } */
     .imgnav{
-        margin-left: 15px;
+        margin-left: 10px;
     }
     .icon-menu{
         right: 50px;
@@ -303,7 +315,7 @@ body {
         margin: 10px;
     }
     .itemnav a{
-        font-size: 16px;
+        font-size: 10px;
     }
     /* -----------------inicio--------------------- */
     .inicio{
@@ -332,7 +344,7 @@ body {
     }
     /*-------------------conhecimentos-----------------*/
     .conhecimentos{
-        height: 500px;
+        height: 1000px;
     }
     .cards{
         display: grid;
@@ -340,7 +352,7 @@ body {
     .conhecimentos-item{
         display: flex;
         width: 150px;
-        height: 50px;
+        height: 150px;
     }
     .conhecimentos-item img {
         width: 30px;
@@ -348,7 +360,7 @@ body {
     }
     /*--------------contato-----------------*/
     .contato{
-        height: 300px;
+        height: 400px;
         display: grid;
     }
   }
